@@ -23,5 +23,6 @@ jobs:
         cd /home/bhupiister/engicam_bsp_release
         ls
         source setup-environment build
+        bitbake-layers show-layers
         
         
