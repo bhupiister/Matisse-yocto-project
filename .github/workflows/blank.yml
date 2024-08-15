@@ -34,7 +34,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          cd /home/bhupiister/engicam_bsp_release
+          # cd /home/bhupiister/engicam_bsp_release
+          cd /home
           ls
-          source setup-environment build
-          bitbake-layers show-layers
+#          source setup-environment build
+#         bitbake-layers show-layers
