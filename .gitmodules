@@ -1,0 +1,15 @@
+[submodule "meta-qt5"]
+	path = meta-qt5
+	url = https://github.com/meta-qt5/meta-qt5.git
+[submodule "meta-dmg"]
+	path = meta-dmg
+	url = git@github.com:bhupiister/meta-dmg.git
+[submodule "meta-rauc"]
+	path = meta-rauc
+	url = https://github.com/rauc/meta-rauc.git
+[submodule "meta-rauc-community"]
+	path = meta-rauc-community
+	url = https://github.com/bhupiister/meta-rauc-community.git
+[submodule "meta-engicam-nxp"]
+	path = meta-engicam-nxp
+	url = https://github.com/engicam-stable/meta-engicam-nxp

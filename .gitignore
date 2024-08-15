@@ -1,0 +1,14 @@
+base/
+meta-browser/
+meta-clang/
+meta-engicam-mx8/
+meta-freescale-3rdparty/
+meta-freescale-distro/
+meta-freescale/
+meta-imx/
+meta-nxp-demo-experience/
+meta-openembedded/
+meta-qt6/
+meta-timesys/
+meta-virtualization/
+poky/
