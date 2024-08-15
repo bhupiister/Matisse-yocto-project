@@ -35,7 +35,9 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo $PWD
+          cd ../../
+          echo $PWD
+          ls
           cd ../
           echo $PWD
-          cd ../
-          echo $PWD
+          ls
