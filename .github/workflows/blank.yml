@@ -22,5 +22,6 @@ jobs:
 
     - name: Build Yocto Rootfs
       run:  |
+        cd ../
         source setup-environment build
         bitbake-layers show-layers
