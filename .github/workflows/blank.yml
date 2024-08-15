@@ -20,6 +20,8 @@ jobs:
     steps:
     - name: Build Yocto Rootfs
       run:  |
-        cd /home/bhupiister
+        cd /home/bhupiister/engicam_bsp_release
         ls
+        source setup-environment build
+        
         
