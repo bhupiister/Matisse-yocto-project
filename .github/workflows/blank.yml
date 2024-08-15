@@ -38,6 +38,6 @@ jobs:
           cd ../../
           echo $PWD
           ls
-          cd ../
+          cd /
           echo $PWD
           ls
