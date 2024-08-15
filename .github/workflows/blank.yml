@@ -18,11 +18,8 @@ jobs:
   build-yocto:
     runs-on: [self-hosted, linux, x64, yocto]
     steps:
-    - uses: actions/checkout@v2
-
     - name: Build Yocto Rootfs
       run:  |
-        cd ..
-        tree
-        cd ..
-        tree
+        cd /home/bhupiister
+        ls
+        
