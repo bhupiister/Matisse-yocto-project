@@ -21,8 +21,7 @@ jobs:
     - name: Build Yocto Rootfs
       run:  |
         cd /home/bhupiister/engicam_bsp_release
-        ls
         source setup-environment build
-        bitbake-layers show-layers
+        bitbake dmg-matisse-r5-imx8p
         
         
