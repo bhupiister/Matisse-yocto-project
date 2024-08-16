@@ -21,7 +21,7 @@ jobs:
 
     - name: update meta-dmg
       run:  |
-        cd /home/bhupiister/engicam_bsp_release/meta-dmg
+        cd /home/bhupiister/engicam_bsp_release/sources/meta-dmg
         git pull origin main
         git status
         
