@@ -1,0 +1,24 @@
+# This is to update meta-dmg later from git repo
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build-yocto:
+    runs-on: [self-hosted, linux, x64, yocto]
+    steps:
+    - name: Update meta-dmg
+      run:  |
+        cd /home/bhupiister/engicam_bsp_release/meta-dmg
+        git pull origin main
+        git status
